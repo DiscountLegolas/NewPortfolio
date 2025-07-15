@@ -4,15 +4,16 @@ import { motion } from 'framer-motion';
 
 const jobs = [
 	{
-		title: 'Back End Developer',
-		company: 'creWin Online Denizcilik',
-		location: 'Remote',
-		dates: 'Aug 2022 - Sept 2022',
+		title: 'Full-Stack Developer',
+		company: 'İnfinity E-Learning',
+		location: 'İstanbul/Sarıyer',
+		dates: 'Feb 2024 - May 2025',
 		bullets: [
-			'I contributed to the backend development processes of a job platform for seafarers.',
-			'I worked on microservice architecture, API integrations, and database design.',
+			'Developed and integrated AI modules using fine‑tuned LLMs and custom model deployments, extending platform intelligence with automated content generation and smart suggestions.',
+			'Built applications that help users generate announcements, surveys, and competency sets using generative AI.',
+			'Developed an app that creates .PPTX presentations from user input, automating content formatting using generative AI techniques.',
 		],
-		tech: ['.Net', 'MSSQL'],
+		tech: ['Python', 'Flask', 'PostgreSql', 'TensorFlow', 'Hugging Face Transformers', 'Langchain', 'Pytorch'],
 	},
 	{
 		title: 'Software Developer',
@@ -26,17 +27,16 @@ const jobs = [
 		tech: ['.Net', 'MSSQL', 'Python', 'PostgreSql', "LLM's", 'Flask'],
 	},
 	{
-		title: 'Full-Stack Developer',
-		company: 'İnfinity E-Learning',
-		location: 'İstanbul/Sarıyer',
-		dates: 'Feb 2024 - May 2025',
+		title: 'Back End Developer',
+		company: 'creWin Online Denizcilik',
+		location: 'Remote',
+		dates: 'Aug 2022 - Sept 2022',
 		bullets: [
-			'Developed and integrated AI modules using fine‑tuned LLMs and custom model deployments, extending platform intelligence with automated content generation and smart suggestions.',
-			'Built applications that help users generate announcements, surveys, and competency sets using generative AI.',
-			'Developed an app that creates .PPTX presentations from user input, automating content formatting using generative AI techniques.',
+			'I contributed to the backend development processes of a job platform for seafarers.',
+			'I worked on microservice architecture, API integrations, and database design.',
 		],
-		tech: ['Python', 'Flask', 'PostgreSql', 'TensorFlow', 'Hugging Face Transformers', 'Langchain', 'Pytorch'],
-	},
+		tech: ['.Net', 'MSSQL'],
+	}
 ];
 
 export default function WorkExperience() {
